@@ -5,6 +5,7 @@ class Settings(BaseSettings):
     SECRET_KEY: str
     ACCESS_TOKEN_EXPIRATION_TIME: int
     ALGORITHM: str
+    GROQ_API_KEY: str
 
     model_config = {"env_file": ".env"}
 
